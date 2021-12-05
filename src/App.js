@@ -7,6 +7,8 @@ import FlexBox from './pages/FlexBox';
 import Position from './pages/Position';
 import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
+import Communication from './pages/Communication';
+import ReactNativeSvg from './pages/ReactNativeSvg';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -23,7 +25,9 @@ const App = () => {
         {/* {isShow && <FlexBox />} */}
         {/* <Position /> */}
         {/* <PropsDinamis /> */}
-        <StateDinamis />
+        {/* <StateDinamis /> */}
+        {/* <Communication /> */}
+        <ReactNativeSvg />
       </ScrollView>
     </View>
   );
