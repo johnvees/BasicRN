@@ -9,6 +9,7 @@ import PropsDinamis from './pages/PropsDinamis';
 import StateDinamis from './pages/StateDinamis';
 import Communication from './pages/Communication';
 import ReactNativeSvg from './pages/ReactNativeSvg';
+import BasicJavascript from './pages/BasicJavascript';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -27,7 +28,8 @@ const App = () => {
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
         {/* <Communication /> */}
-        <ReactNativeSvg />
+        {/* <ReactNativeSvg /> */}
+        <BasicJavascript />
       </ScrollView>
     </View>
   );
