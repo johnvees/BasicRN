@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yohanes",
+      "email": "yohanes@gmail.com",
+      "bidang": "S1 SI"
+    }
+  ]
+}
